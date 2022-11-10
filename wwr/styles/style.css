@@ -32,7 +32,7 @@ nav a:hover {
     background-color: #F49F0A;
 }
 .book, .join {
-    color: #0B2E5E;
+    color: #9b3f3f;
     background-color: #cdcac3;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ nav a:hover {
     background-color: #cdcac3;
 }
 .msg h2 {
-    color: #5F5845;
+    color: #000000;
 }
 .msg p {
     color: #000000;
