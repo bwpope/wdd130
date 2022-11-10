@@ -33,7 +33,7 @@ nav a:hover {
 }
 .book, .join {
     color: #0B2E5E;
-    background-color: #5F5845;
+    background-color: #cdcac3;
     text-decoration: none;
 }
 .join:hover, .book:hover {
@@ -47,7 +47,7 @@ nav a:hover {
     background-color: #cdcac3;
 }
 .msg h2 {
-    color: #000000;
+    color: #5F5845;
 }
 .msg p {
     color: #000000;
