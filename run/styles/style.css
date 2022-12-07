@@ -1,0 +1,126 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #F1FAEE   ;
+    --secondary-color: #A8DADC ;
+    --accent1-color: #E63946;
+    --accent2-color: #457B9D;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: Georga, serif;
+    --paragraph-font: Tahomoa, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #457B9D;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #457B9D; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #457B9D  ;
+    --nav-link-color: white;
+    --nav-background-color: #457B9D;
+    --nav-hover-link-color: #e6c639;
+    --nav-hover-background-color: #457B9D;
+}
+h2 {
+    font-family: Georga, serif; 
+    font-size: 2em;
+    color: #000000;
+}
+p {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color:#E63946;
+}
+h2:hover {
+    color:#E63946;
+}
+
+#content {
+    max-width:1600px;
+    margin: 0 auto;
+}
+.header-flex {
+    background-color: rgb(255, 255, 255); opacity: 0.75;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.nav {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+a.nav {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 250px 100px;
+}
+
+.msg {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    z-index: 1;
+    background-color: #A8DADC;
+    text-align: center;
+}
+#hero-img {
+    grid-column: 1/7;
+    width: 100%;
+    margin-top: -110px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+}
+
+.easy-card {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.epic-card { 
+    margin-top: 75px;
+    margin-bottom: 75px;
+    grid-column: 4/5;
+    text-align: center;
+}
+
+.easy-runs-pic, .epic-runs-pic {
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E63946;
+}
+
+footer {
+    background-color: #457B9D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p, a {
+    color: white;
+    text-decoration: none;
+}
+
+.strava-logo {
+    height: 30px;
+}
+
