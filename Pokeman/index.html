@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeman Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="images/pokemonLogo.png">
+        <div class="searchBox"> 
+            <input type="text" id="pokemonName" placeholder="Enter a Pokemon Name">
+            <button id="search" onclick=getName()>Search</button>
+        </div>
+    </header>
+    <main class="displayArea">
+        <div class="screen_image">
+            <img src="" class="poke-front-image" alt="front">
+            <img src="" class="poke-back-image" alt="back">
+        </div>
+        <div class="screen_stats">
+            <p><span class="poke-name"></span></p>
+            <p>ID:<span class="poke-id"></span></p>
+            <p>Weight: <span class="poke-weight"></span></p>
+            <p>Type 1: <span class="poke-type-one"></span></p>
+            <p>Type 2: <span class="poke-type-two"></span></p>
+        </div>
+        </div>
+    </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
